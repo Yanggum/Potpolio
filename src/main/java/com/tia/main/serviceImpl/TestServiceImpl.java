@@ -1,4 +1,4 @@
-package com.tia.main.daoImpl;
+package com.tia.main.serviceImpl;
 
 import java.sql.SQLException;
 
@@ -6,10 +6,10 @@ import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.tia.main.dao.TestDAO;
+import com.tia.main.service.TestService;
 
 @Repository
-public class TestDAOImpl implements TestDAO {
+public class TestServiceImpl implements TestService {
 
 	@Autowired
 	private SqlSession query;

@@ -1,7 +1,7 @@
-package com.tia.main.dao;
+package com.tia.main.service;
 
 import java.sql.SQLException;
 
-public interface TestDAO {
+public interface TestService {
 	public String selectNow() throws SQLException;
 }
