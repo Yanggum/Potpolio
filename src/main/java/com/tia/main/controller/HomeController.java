@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.mysql.jdbc.Statement;
-import com.tia.main.service.TestService;
+import com.tia.main.dao.TestDAO;
 
 /**
  * Handles requests for the application home page.
@@ -30,7 +30,7 @@ public class HomeController {
 	BasicDataSource dataSource;
 	
 	@Autowired
-	private TestService testDAO;
+	private TestDAO testDAO;
 	
 	
 	/**

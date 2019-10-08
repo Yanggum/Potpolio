@@ -6,10 +6,10 @@ import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.tia.main.service.TestService;
+import com.tia.main.dao.TestDAO;
 
 @Repository
-public class TestServiceImpl implements TestService {
+public class TestServiceImpl implements TestDAO {
 
 	@Autowired
 	private SqlSession query;

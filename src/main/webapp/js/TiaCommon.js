@@ -4,8 +4,7 @@
 
 var TiaCommon = {
 	
-	test: function() {
-		alert("test");
+	test: function() {		
 	},
 	
 	post: function(url, data, success, done, fail){

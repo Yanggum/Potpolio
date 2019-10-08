@@ -6,7 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.tia.main.service.TestService;
+import com.tia.main.dao.TestDAO;
 
 @Controller
 public class LoginController {
@@ -14,7 +14,7 @@ public class LoginController {
 	BasicDataSource dataSource;
 	
 	@Autowired
-	private TestService testDAO;
+	private TestDAO testDAO;
 
 	@RequestMapping("/login.do")
 	public String dbTest2(Model model) {
