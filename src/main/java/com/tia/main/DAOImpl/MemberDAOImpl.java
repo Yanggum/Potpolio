@@ -1,4 +1,4 @@
-package com.tia.main.serviceImpl;
+package com.tia.main.DAOImpl;
 
 import java.sql.SQLException;
 
@@ -10,7 +10,7 @@ import com.tia.main.dao.MemberDAO;
 import com.tia.main.vo.MemberVO;
 
 @Repository
-public class MemberServiceImpl implements MemberDAO {
+public class MemberDAOImpl implements MemberDAO {
 	
 	@Autowired
 	private SqlSession session;
