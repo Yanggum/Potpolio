@@ -1,4 +1,4 @@
-package com.tia.main.DAOImpl;
+package com.tia.main.dao;
 
 import java.sql.SQLException;
 
@@ -6,7 +6,6 @@ import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.tia.main.dao.MemberDAO;
 import com.tia.main.vo.MemberVO;
 
 @Repository
